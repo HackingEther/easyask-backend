@@ -1,0 +1,10 @@
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and local logs
+node_modules/
+*.log
+npm-debug.log*
+.DS_Store
